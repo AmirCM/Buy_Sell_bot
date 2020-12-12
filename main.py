@@ -17,7 +17,7 @@ while 1:
     st = time()
     screenshot = wincap.get_screenshot()
 
-    
+
 
 
 
