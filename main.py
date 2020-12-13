@@ -6,6 +6,7 @@ import win32gui
 import win32ui
 import ScreenCapture
 
+
 app_name = '950459: IFCMarkets-Demo - Demo Account - [XAUOIL,H1]'
 
 ScreenCapture.list_window_names()
@@ -16,17 +17,6 @@ cv.namedWindow('Meta Trader', cv.WINDOW_GUI_NORMAL)
 while 1:
     st = time()
     screenshot = wincap.get_screenshot()
-
-
-
-
-
-
-
-
-
-
-
 
     fps = 1 / (time() - st)
     if fps > max_fps:
